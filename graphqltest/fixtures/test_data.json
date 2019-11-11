@@ -1,0 +1,77 @@
+[
+  {
+    "model": "graphqltest.master",
+    "pk": 1,
+    "fields": {
+      "name": "Open",
+      "status": 0,
+      "deleted": false,
+      "date_created": "2019-11-06T08:00:00Z"
+    }
+  },
+  {
+    "model": "graphqltest.master",
+    "pk": 2,
+    "fields": {
+      "name": "Closed",
+      "status": 1,
+      "deleted": false,
+      "date_created": "2019-11-06T08:00:00Z"
+    }
+  },
+  {
+    "model": "graphqltest.master",
+    "pk": 3,
+    "fields": {
+      "name": "Deleted",
+      "status": 0,
+      "deleted": true,
+      "date_created": "2019-11-06T08:00:00Z"
+    }
+  },
+  {
+    "model": "graphqltest.detail",
+    "pk": 1,
+    "fields": {
+      "name": "Open detail 1",
+      "amount": 1.1,
+      "master": 1
+    }
+  },
+  {
+    "model": "graphqltest.detail",
+    "pk": 2,
+    "fields": {
+      "name": "Open detail 2",
+      "amount": 2.2,
+      "master": 1
+    }
+  },
+  {
+    "model": "graphqltest.detail",
+    "pk": 3,
+    "fields": {
+      "name": "Closed detail 1",
+      "amount": 3.3,
+      "master": 2
+    }
+  },
+  {
+    "model": "graphqltest.detail",
+    "pk": 4,
+    "fields": {
+      "name": "Closed detail 2",
+      "amount": 4.4,
+      "master": 2
+    }
+  },
+  {
+    "model": "graphqltest.detail",
+    "pk": 5,
+    "fields": {
+      "name": "Deleted detail",
+      "amount": 5.5,
+      "master": 3
+    }
+  }
+]
